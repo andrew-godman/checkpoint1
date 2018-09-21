@@ -29,11 +29,12 @@ $rm -rf vamps/
 1. Assign the string "Jack" to a variable called `captain`
 <br><br>
 
-
+var captain = "Jack"
 
 2. Using the `captain` variable, use string concatenation to form the string "Oh Jack, my Jack!", assigning it to a variable named `phrase`
 <br><br>
 
+var phrase = "Oh ".concat(captain).concat(", my ").concat(captain).concat("!")
 
 ### JS Conditionals
 ```js
