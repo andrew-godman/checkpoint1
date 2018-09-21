@@ -45,6 +45,11 @@ var lifeRafts = 2;
 1. Write an `if` statement that console.logs "SOS!" if there are more _souls_ than _lifeRafts_
 <br><br>
 
+if (souls > lifeRafts) {
+  console.log("SOS!");
+
+}
+
 
 ### Data Structures - JS Arrays
 
