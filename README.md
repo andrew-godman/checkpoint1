@@ -82,17 +82,35 @@ weekend.splice(0,1)
 1. Write an object literal named `brain` having a property of `energyLevel` with a value of `10` as a number
 <br><br>
 
+var brain = {
+  energyLevel: 10
+}
+
 2. Assign the property of `energyLevel` to a variable named `energy`
 <br><br>
 
+var energy = brain.energyLevel
+
 3. Add a `dream` property to the `brain` object that holds the string  'electric sheep'
-<br><br>
+
+var brain = {
+  energyLevel: 10,
+  dream: 'electric sheep',
+};
 
 4. Add a `dayDream` property to the `brain` object that holds the object `{ lunch: ['burger', 'beer'] }`
 <br><br>
 
+var brain = {
+  energyLevel: 10,
+  dream: 'electric sheep',
+  dayDream: `{ lunch: ['burger', 'beer'] }`,
+};
+
 5. Add another element `pudding` to the lunch array inside the `brain` object
 <br><br>
+
+
 
 ### JS Functions
 
