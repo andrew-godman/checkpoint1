@@ -7,19 +7,29 @@
 1. Make two directories inside `~/buffy`: `scoobies` and `vamps`
 <br><br><br>
 
+$mkdir scoobies vamps
+
 2. Make files in `scoobies` named `buffy.txt`, `giles.txt` and `angel.txt`
 <br><br><br>
+
+$touch scoobies/buffy.txt scoobies/giles.txt
 
 3. Copy `angel.txt` into the `vamps` directory
 <br><br>
 
+$cp scoobies/angel.txt vamps/angle.txt
+
 4. Delete the `vamps` directory and everything inside it
 <br><br>
+
+$rm -rf vamps/
 
 ### JS Variables
 
 1. Assign the string "Jack" to a variable called `captain`
 <br><br>
+
+
 
 2. Using the `captain` variable, use string concatenation to form the string "Oh Jack, my Jack!", assigning it to a variable named `phrase`
 <br><br>
@@ -63,7 +73,7 @@ var lifeRafts = 2;
 3. Add a `dream` property to the `brain` object that holds the string  'electric sheep'
 <br><br>
 
-4. Add a `dayDream` property to the `brain` object that holds the object `{ lunch: ['burger', 'beer'] }` 
+4. Add a `dayDream` property to the `brain` object that holds the object `{ lunch: ['burger', 'beer'] }`
 <br><br>
 
 5. Add another element `pudding` to the lunch array inside the `brain` object
